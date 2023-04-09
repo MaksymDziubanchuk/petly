@@ -9,9 +9,9 @@
 
 ## Petly
 
-[![Homepage](./assets/images/Home_min.jpg 'Petly')](https://team-project-pet-support.vercel.app/)
+[![Homepage](./assets/images/Home_min.jpg 'Petly')](https://petly-project.vercel.app/)
 
-[Live site](https://team-project-pet-support.vercel.app/)
+[Live site](https://petly-project.vercel.app/)
 
 Welcome to our online platform that offers a variety of animals for sale or
 adoption, completely free of charge. We are dedicated to providing a safe and
@@ -67,9 +67,9 @@ Join us in our mission to give every animal a loving and caring home.
 ![gravatar](./assets/images/backend/logo_gravatar.png)
 ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
 
-[GitHub](https://github.com/Yevhenii3145/backend-team-project-pet-support)
+[GitHub](https://github.com/MaksymDziubanchuk/petly-backend)
 
-[Swagger](https://backend-team-project-pet-support.onrender.com/api-docs/)
+[Swagger](https://petly-backend-6jdb.onrender.com/api-docs/)
 
 ## Members:
 
