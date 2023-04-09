@@ -86,6 +86,6 @@ Join us in our mission to give every animal a loving and caring home.
 
 ##### Backend
 
--   Krystyna Varchuk (Team Leader)
+-   Krystyna Varchuk (Team)
 -   Maksym Dziubanchuk
 -   Sergiy Kudryavtsev
