@@ -498,7 +498,8 @@
             "btn": {
                 "addPet": "Add pet"
             },
-            "emptyPetsList": "hasn't added any own animals to yourself list yet"
+            "emptyPetsList": "hasn't added any own animals to yourself list yet",
+            "emptyPetsListText": "You haven`t added any animals to your list yet"
         },
         "guest": {
             "infoTitle": "User information",

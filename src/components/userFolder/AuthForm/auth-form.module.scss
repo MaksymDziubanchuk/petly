@@ -134,6 +134,10 @@
 .form__button {
     width: 100%;
 
+    &:hover {
+        color: var(--text-color);
+    }
+
     &:disabled,
     &[disabled] {
         border: 1px solid #999999;
