@@ -1,0 +1,61 @@
+@import "helpers/variables.module.scss";
+
+.main {
+    padding-top: 42px;
+    padding-bottom: 50px;
+    background-color: var(--background-color);
+}
+
+.main_title {
+    line-height: 1.38;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 28px;
+}
+
+.notices__all_pets {
+    display: inline-block;
+    padding: 8px 28px;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: 0.04em;
+
+    background-color: $accentColor;
+    color: $lightColor;
+  
+    border: 2px solid $accentColor;
+    border-radius: 40px;
+}
+
+// ============== Tablet ======================
+
+@media screen and (min-width: 768px) {
+    .main {
+        padding-top: 90px;
+    }
+
+    .notices__all_pets {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        line-height: 1.35;
+    }
+
+    .main_title {
+        font-size: 48px;
+        line-height: 1.38;
+        margin-bottom: 40px;
+    }
+}
+
+// ============== Desktop ======================
+
+@media screen and (min-width: 1280px) {
+    .main {
+        padding-top: 59px;
+        padding-bottom: 50px;
+    }
+}
+

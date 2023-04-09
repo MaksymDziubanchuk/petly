@@ -1,0 +1,112 @@
+/* @import-normalize;  bring in normalize.css styles */
+
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Manrope:wght@400;500;600;700&family=Montserrat:wght@500&display=swap');
+
+html {
+    /* background-color: #fdf7f2; */
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* light theme */
+
+html[data-theme='light'] {
+    --background-color: #fdf7f2;
+    --text-color: #111;
+    --card-color: #ffffff;
+    --icon-edit-pet: #111;
+    --notices-categories: #ffffff;
+    --learn-more-btn: #ffffff;
+    --delete-btn: #ffffff;
+    --search-input: #535353;
+    --background-auth-nav-login: #ffffff;
+    --background-auth-nav-register: #ffffff;
+    --modal-input: #ffffff;
+    --modal-close: #ffffff;
+    --modal-next-btn-color: #cccccc;
+    --modal-next-btn-text: #666666;
+    --shadow: rgba(0, 0, 0, 0.11);
+    --icon-menu-open: #111;
+    --icon-menu-close: #111;
+    --bg-btn-theme: #7d6550;
+    --notice-categories-link-border: #f59256;
+    --shadow-hero-title: #1e162c00;
+    --modal-categories: #ffffff;
+    --lang-btn-bg: rgba(94, 94, 94, 0.1568627451);
+    --modal-register-login: #ffffff;
+}
+
+/* dark theme */
+
+html[data-theme='dark'] {
+    --background-color: #262031;
+    --text-color: #f0f0f0;
+    --card-color: #3e384e;
+    --icon-edit-pet: #f0f0f0;
+    --notices-categories: #3e384e;
+    --learn-more-btn: #3e384e;
+    --delete-btn: #3e384e;
+    --search-input: #f0f0f0;
+    --auth-nav-text: #ffffff;
+    --background-auth-nav-login: #3e384e;
+    --background-auth-nav-register: #3e384e;
+    --modal-input: #ededff;
+    --modal-close: #3e384e;
+    --modal-next-btn-color: #9b8070;
+    --modal-next-btn-text: #faeded;
+    --shadow: #1a1522;
+    --icon-menu-open: #ffffff;
+    --icon-menu-close: #ffffff;
+    --bg-btn-theme: #563e82;
+    --notice-categories-link-border: #3e384e;
+    --shadow-hero-title: #1e162c;
+    --modal-categories: #574f6a;
+    --lang-btn-bg: rgb(221 215 255 / 22%);
+    --modal-register-login: #3e384e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #111111;
+    display: block;
+    background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+ul,
+li,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}

@@ -1,0 +1,58 @@
+@import "../../../helpers/variables.module.scss";
+
+.logout_button {
+
+    position: relative;
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height: 22px;
+    margin-left: 16px;
+    margin-left: auto;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 0;
+    background-color: var(--card-color);
+    color: var(--text-color);
+    cursor: pointer;
+    border: none;
+    &:hover,
+    &:focus {
+        color: $accentColor;
+    }
+   
+   
+@media screen and (min-width: 768px) {
+    margin: 0;
+}
+}
+
+.logout_button::before {
+    position: absolute;
+    content: "";
+}
+
+.logout_box {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+
+@media screen and (min-width: 768px) {
+    margin: 0;    
+}
+
+@media screen and (min-width: 1280px) {
+    margin-left: 16px;
+}
+}
+
+.logout_text {
+    margin-left: 8px;
+}
+
+

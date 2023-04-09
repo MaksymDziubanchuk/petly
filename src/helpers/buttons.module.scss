@@ -1,0 +1,110 @@
+@import './variables.module.scss';
+
+.button__primary_not_main {
+  padding: 10px 28px;
+  background: transparent;
+  border: 2px solid $accentColor;
+  border-radius: 40px;
+  color: $darkColor;
+  letter-spacing: 0.04em;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: $accentColor;
+    color: $lightColor;
+  }
+}
+
+.button__primary_main {
+  padding: 10px 28px;
+  background: $accentColor;
+  border-radius: 40px;
+  color: $lightColor;
+  letter-spacing: 0.04em;
+  border: 2px solid $accentColor;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: transparent;
+    color: $darkColor;
+  }
+}
+
+.button__secondary {
+  padding: 8px 28px;  
+  background-color: $lightColor;
+  border-radius: 40px;
+  border: 2px solid $accentColor;
+  color: #111111;
+
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: $accentColor;
+    color: $lightColor;
+    border: 0;
+  }
+}
+
+.button__secondary_active {
+  padding: 8px 28px;  
+  background: $accentColor;
+  border-radius: 40px;
+  border: 0;
+  color: $lightColor;
+
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: $lightColor;
+    color: #111111;
+    border: 2px solid $accentColor;
+  }
+}
+
+.button__learn {
+    padding: 8px 28px;  
+    background-color: $lightColor;
+    border-radius: 40px;
+    border: 2px solid $accentColor;
+    color: $accentColor;
+  
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+  
+    &:hover,
+    &:focus {
+      color: #FF6101;
+      border: 2px solid #FF6101;
+    }
+  }

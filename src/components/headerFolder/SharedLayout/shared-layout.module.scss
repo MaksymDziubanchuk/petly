@@ -1,0 +1,116 @@
+@import '../../../helpers/variables.module.scss';
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../../../images/wave-mobile-home.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    box-sizing: content-box;
+    background-color: var(--background-color);
+
+    @media screen and (min-width: 768px) {
+        padding-top: 64px;
+        background-size: cover;
+        background-image: url(../../../images/wave-tablet-home.svg);
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1280px) {
+        & > div {
+            height: 100%;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        background-size: contain;
+        padding-top: 88px;
+        background-image: url(../../../images/wave-desktop.svg);
+
+        & > div {
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+}
+
+.wrapperHome {
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+.heartIcon {
+    display: none;
+
+    @media screen and (min-width: 1280px) {
+        display: block;
+    }
+}
+
+.image {
+    width: 280px;
+    height: 337px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    background-image: url(../../../images/portrait-mobile@1x.png);
+
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../../../images/portrait-mobile@2x.png);
+    }
+
+    @media screen and (min-width: 768px) {
+        height: 775px;
+        width: 645px;
+        background-image: url(../../../images/portrait-tablet@1x.png);
+
+        @media screen and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../../images/portrait-tablet@2x.png);
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 590px;
+        height: 640px;
+        position: relative;
+        background-image: url(../../../images/portrait-desktop@1x.png);
+
+        @media screen and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../../images/portrait-desktop@2x.png);
+        }
+    }
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.4;
+    color: var(--text-color);
+    text-shadow: 2px 2px 20px var(--shadow-hero-title);
+    margin-bottom: 57px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 68px;
+        line-height: 1.5;
+        margin-bottom: 118px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 600px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,26 @@
+.card_list {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    gap: 32px;
+    margin-top: 30px;
+}
+
+// ============== Tablet ======================
+
+@media screen and (min-width: 768px) {
+    .card_list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 704px;
+        margin-top: 60px;
+    }
+}
+
+// ============== Desktop ======================
+
+@media screen and (min-width: 1280px) {
+    .card_list {
+        width: 1248px;
+    }
+}

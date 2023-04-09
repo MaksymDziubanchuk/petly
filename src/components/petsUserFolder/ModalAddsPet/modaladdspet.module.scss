@@ -1,0 +1,35 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(17, 17, 17, 0.6);
+  backdrop-filter: blur(10px);
+  z-index: 1200;
+  overflow: hidden;
+}
+
+.modal__section {
+  padding: 37px 20px 40px;
+  border-radius: 20px;
+  font-family: 'Manrope';
+
+  background-color: var(--card-color);
+
+  @media screen and (max-width: 768px) {
+    width: 90vw;
+    height: 90vh;
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal__section {
+    padding: 40px 80px;
+    min-width: 608px;
+  }
+}

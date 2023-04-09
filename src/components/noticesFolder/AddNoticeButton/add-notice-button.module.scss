@@ -1,0 +1,45 @@
+@import '../../../helpers/variables.module.scss';
+
+.button__wrapper {
+  position: absolute;
+  right: 25px;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 768px) {
+    right: 0px;
+
+    &:hover,
+    &:focus {
+      color: $accentColor;
+    }
+  } 
+}
+
+.button__text {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-right: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.35;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  background-color: $accentColor;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}

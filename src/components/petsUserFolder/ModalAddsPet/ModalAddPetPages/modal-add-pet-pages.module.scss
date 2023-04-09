@@ -1,0 +1,245 @@
+@import "../../../../helpers/variables.module.scss";
+@import "../../../../helpers/buttons.module.scss";
+
+.modalAdds_page  {
+    position: relative;
+    text-align: center;
+    background: var(--card-color);
+}
+
+.modalAdds_page__close{
+    position: absolute;
+    right: -10px;
+    top: -25px;
+    text-align: center;
+    background: var(--card-color);
+    backdrop-filter: blur(2px);
+    margin-left: auto;
+    max-width: 34px;
+    max-height: 34px;
+    padding: 6px;
+    border-radius: 40px;
+    cursor: pointer;
+        &:hover, &:focus{
+        background: #e6dfda;
+    }
+}
+
+.modalAdds_page__tittle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    margin: 0px 0px 20px;
+    color: var(--text-color);
+}
+
+.modalAdds_page__input {
+    display: block;
+    width: 100%;
+    padding: 14px 11px 12px;
+    background: var(--modal-input);
+    border: 1px solid rgba(245, 146, 86, 0.5);
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    color: rgba(27, 27, 27, 0.6);
+    margin-top: 8px;
+}
+
+.modalAdds_page__label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+.modalAdds_page__button {
+    display: inline-block;
+    margin-top: 40px;
+    color: var(--text-color);
+}
+
+.addspet__imgInput{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.addspet__imgLabel{
+    background: $background;
+    background-image: url(../../../../images/add-pet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    display: inline-block;
+    min-width: 208px;
+    min-height: 208px;
+
+    &:hover{
+        cursor: pointer;
+        background-color: rgba(245, 146, 86, 0.5);
+    }
+}
+
+.add__pet__container{
+    position: relative;
+}
+
+.addspetPhoto__container{
+    width: 208px;
+    height: 208px;
+    border-radius: 20px;
+}
+
+.addspet__photo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+.addspet__imgLabel_select{
+    background: $background;
+    border-radius: 20px;
+    display: inline-block;
+    min-width: 208px;
+    min-height: 208px;
+
+    &:hover{
+        cursor: pointer;
+        background-color: rgba(245, 146, 86, 0.5);
+    }
+}
+
+.modalAdds_page__field {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.modalAdds_page_box {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 16px auto 0 0;
+
+    &:first-child {
+        margin-top: 0px;
+        }
+}
+
+.modalAdds_page__photoBox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.modalAdds_commit_box {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.modalAdds_commit {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background: var(--modal-input);
+    border: 1px solid $accentColor;
+    border-radius: 20px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    color: rgba(17, 17, 17, 0.6);
+    padding-left: 14px;
+    padding-top: 12px;
+    margin-top: 8px;
+        
+
+}
+@media screen and (max-width: 767px){
+    .modalAdds_page__button {
+        width: 100%;
+        color: var(--text-color);
+    
+        &:last-child{
+            margin-top: 12px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modalAdds_page__close{
+        right: -60px;
+        top: -20px;
+    }
+
+    .modalAdds_page__tittle {
+        font-size: 36px;
+        line-height: 49px;
+        margin: 0px 0px 40px;
+    }
+    
+    .modalAdds_page__input {
+        padding: 11px 16px 10px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        margin-top: 12px;
+    }
+    
+    .modalAdds_page__label {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    
+    .modalAdds_page__button {
+        min-width: 180px;
+        margin-left: 20px;
+        color: var(--text-color);
+
+        &:last-child{
+            margin-left: 0px;
+        }
+    }
+
+    .addPet__button{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    .add__pet__container{
+        padding: 0px 27px;
+    }
+
+    .addspetPhoto__container{
+        width: 182px;
+        height: 182px;
+    }
+    
+    .addspet__imgLabel{
+        min-width: 182px;
+        min-height: 182px;
+    }
+   
+    .modalAdds_commit_box {
+        margin-top: 40px;
+    }
+}

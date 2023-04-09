@@ -1,0 +1,201 @@
+@import "../../../helpers/variables.module.scss";
+
+.petsList_box {
+    display: block;
+    width: 100%;
+    background-color: var(--card-color);
+    box-shadow: 7px 4px 14px var(--shadow);
+    border-radius: 20px;
+    padding-top: 16px;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        padding: 20px;
+        border-radius: 40px;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    @media screen and (min-width: 1280px) {
+        border-radius: 40px;
+
+    }
+}
+
+.petsList_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+
+    @media screen and (min-width: 768px) {
+        margin: 0;
+        width: 161px;
+        height: 161px;
+        border-radius: 40px;
+    }
+
+    @media screen and (min-width: 1280px) {}
+}
+
+
+
+.petsList_text_box {
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    position: relative;
+    width: 235px;
+
+    @media screen and (min-width: 768px) {
+        width: 471px;
+        padding: 0;
+        margin: 0;
+        padding-left: 32px;
+
+
+
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 580px;
+    }
+}
+
+.labelPets {
+    display: inline-block;
+    width: 120px;
+}
+
+.petsList_field {
+    text-align: left;
+    white-space: pre-wrap;
+    text-align: justify;
+    hyphens: auto;
+    color: var(--text-color);
+    margin-top: 10px;
+    background-color: var(--card-color);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.33;
+
+
+    @media screen and (min-width: 768px) {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 1280px) {}
+}
+
+.petsList_button {
+    margin: 0 auto;
+    display: block;
+    background-color: var(--card-color);
+    border: none;
+    position: absolute;
+    left: 230px;
+    bottom: 5%;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+        border: 1px solid $accentColor;
+    
+    }
+
+    &>svg {
+        position: absolute;
+        content: '';
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: var(--card-color);
+        margin: 0;
+        padding: 0;
+        left: 92%;
+        bottom: 5%;
+
+
+    &>svg {
+        position: absolute;
+        content: '';
+        left:5px;
+        top: 50%;
+            transform: translateY(-50%);
+}
+
+    }
+
+    @media screen and (min-width: 1280px) {}
+}
+
+
+.iconEdit_btn {
+    position: relative;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--card-color);
+    padding: 0;
+    cursor: pointer;
+    left: 230px;
+    bottom: 85%;
+
+    &:hover {
+        border: 1px solid $accentColor;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 32px;
+        height: 32px;
+        left: 92%;
+        top: 5%;
+    }
+
+    @media screen and (min-width: 1280px) {}
+}
+
+.iconEdit_btn::before {
+    position: absolute;
+    content: '';
+
+}
+
+.petList_container {
+    width: 100%;
+    padding: 0;
+
+    @media screen and (min-width: 1280px) {
+        width: 95%;
+    }
+
+}
+
+.icon_edit {
+    fill: var(--text-color);
+}

@@ -1,0 +1,14 @@
+.div {
+    position: relative;
+    height: 95vh;
+    background-color: var(--background-color);
+
+    @media screen and (min-width: 768px) {
+        height: 92vh;
+    }
+
+    @media screen and (min-width: 1280px) {
+        height: 100vh;
+    }
+}
+

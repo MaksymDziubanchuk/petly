@@ -1,0 +1,73 @@
+@import '../../../helpers/variables.module.scss';
+
+.search {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.wrapperSearch {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.searchInput {
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-left: 18px;
+    box-shadow: 7px 4px 14px var(--shadow);
+    background-color: var(--notices-categories);
+    color: var(--text-color);
+
+    @media (min-width: 768px) {
+        min-height: 44px;
+        width: 608px;
+        font-size: 20px;
+    }
+
+    &:focus {
+        outline: none !important;
+        border: 1px solid #f5925680;
+    }
+}
+
+.searchInput::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: var(--search-input);
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+.get_searct_btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width: 25px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    fill: var(--text-color);
+    @media (min-width: 768px) {
+        right: 58px;
+        top: 10px;
+    }
+    @media (min-width: 1280px) {
+        right: 332px;
+    }
+
+    &:hover,
+    &:focus {
+        stroke: $accentColor;
+        fill: $accentColor;
+    }
+}

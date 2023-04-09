@@ -1,0 +1,617 @@
+{
+    "Nav": {
+        "news": "News",
+        "findPet": "Find pet",
+        "ourFriends": "Our friends",
+        "login": "Login",
+        "registration": "Registration"
+    },
+    "HomePage": {
+        "title": "Take good care of your small pets"
+    },
+    "NewsPage": {
+        "title": "News",
+        "search": "Search",
+        "filterFalse": "Write a correct request",
+        "NewsList": [
+            {
+                "title": "On the Day of the Veterinarian, a free training on providing first aid to animals will be held in the capital",
+                "url": "https://www.kmlvm.com.ua/v-den-veterynara-v-stolytsi-projde-bezkoshtovnyj-trening-z-nadannya-pershoyi-dopomogy-tvarynam/",
+                "description": "On Sunday, August 14, the \"VDNG\" Temporary Animal Shelter will host a training session on the topic \"Providing first aid to animals.\" The event is held by the municipal enterprise \"Kyiv City Hospital of Veterinary Medicine\", whose experts will teach everyone who wishes to the skills of providing first aid to our smaller brothers who are in trouble. Without exaggeration, such knowledge can save the lives of four-legged friends. The training is free, anyone can take part in it, it is allowed to participate with your pet. After the training, participants will be able to receive a free consultation from a veterinarian regarding animal care, vaccination and any other issues related to the pet's health. The date of the master class was not chosen by chance. August 14 is the Day of Veterinary Medicine Workers in Ukraine, and this year we decided to hold such a necessary training. For a veterinarian, the most important thing is the saved of our smaller brothers, and teaching people to provide first aid to animals means \"investing\" in the saved lives of animals in the future. Training starts at 11:00. Address of the Temporary Animal Shelter \"VDNG\": Akademika Glushkova Street, 1, Pavilion 16.",
+                "date": "2022-08-12"
+            },
+            {
+                "title": "Telegram chatbot providing free consultations on pet care is now available",
+                "url": "https://www.kmlvm.com.ua/u-telegrami-zapratsyuvav-chat-bot-shho-nadaye-bezkoshtovni-konsultatsiyi-shhodo-doglyadu-za-tvarynamy/",
+                "description": "A special Telegram chatbot called \"Your vet Kyiv\" has started providing free veterinary consultations on animal care and treatment in the capital city. The bot can be found at https://t.me/VetHelpKyiv_bot. The bot's functionality is already quite extensive, and pet owners can get answers to questions about animal vaccination, sterilization, and find the addresses of municipal veterinary clinics where they can receive all necessary services. Additionally, users can receive a consultation from a veterinarian by describing their problem. This feature will be available from 9:00 to 18:00, but basic information on topics such as first aid for poisoned animals, tick bites, vaccination schedules, and more can be obtained around the clock. The bot is currently in testing mode, but its functionality will be expanded in the future.",
+                "date": "2022-07-19"
+            },
+            {
+                "title": "Beware, ticks! How to protect your pet from trouble?",
+                "url": "https://www.kmlvm.com.ua/oberezhno-klishhi-yak-uberegty-ulyublentsya-vid-nepryyemnostej/",
+                "description": "May walks with your pet are not only pleasant, but also require vigilance. With the beginning of the warm season, ticks become more active, and you need to be careful to protect your dog or cat from very serious health problems. How dangerous are ticks? Ticks carry the causative agent of a parasitic blood disease. If the animal shows signs of a tick bite, you should immediately consult a doctor, delay can cost the life of the animal. What are the signs of a tick bite? You should immediately consult a veterinarian if you notice that the animal: has become lethargic, constantly lies down, refuses to eat, its urine has become dark in color. A blood disorder that occurs after a tick bite is treatable, but time is of the essence. And prevention, by the way, to protect a cat or a dog from such troubles, you can use the following means: drops on the withers, sprays, special collars, pills.",
+                "date": "2022-05-04"
+            },
+            {
+                "title": "A temporary shelter has opened in the capital",
+                "url": "https://www.kmlvm.com.ua/v-stolytsi-zapratsyuvav-tymchasovyj-prytulok-dlya-tvaryn/",
+                "description": "Thanks to the efforts of the capital's services and volunteers, a temporary shelter for animals \"Exhibition Center\" has opened in the capital, which operates on the territory of pavilion 16 at the VDNG. The shelter will give shelter to animals that have been left without owners. Anyone can bring an animal to the shelter, upon handing over the animal, an act of \"acceptance-handover\" will be drawn up. To report an animal or to arrange for its placement, just call our hotline (044) 366-69-99. Estimated shelter for 100 dogs and up to 100 cats. Animals that will enter the temporary shelter will be adjusted to families. And, by the way, the first successes are already there: since March 31, 70 dogs and cats have been brought. About 40 animals have already been adopted - 31 dogs and 9 cats. Today, there are 25 dogs and 5 cats in the shelter.",
+                "date": "2022-05-02"
+            },
+            {
+                "title": "Dogs and cats, like people, age, and during this period the animal needs special care",
+                "url": "https://www.kmlvm.com.ua/sobaky-kishky-yak-i-lyudy-stariyut-i-u-tsej-period-tvaryni-potriben-osoblyvyj-doglyad/",
+                "description": "The mature age of a pet is a big responsibility for a caring owner. Aging cannot be stopped, but how the processes will take place in your pet depends to a large extent on the conditions of maintenance, nutrition, and physical exertion. Under adverse factors, it will flow faster and harder. As well as in humans, animals begin to have disorders of the functioning of organs and systems. As a rule, similar processes occur in dogs and cats. During this period, the pet's lifespan actually depends on the owner. First of all, with the arrival of old age in animals, the work of the immune system is disrupted, which no longer protects the body so actively from viruses and diseases. Not only general, but also cellular immunity decreases. To support the animal's immune system, follow these tips: organize a balanced diet (without excess fat, because there is less activity) and its regime, regularly and timely make the necessary vaccinations",
+                "date": "2021-08-11"
+            },
+            {
+                "title": "Why cats try to stick their tail in the owner's face: several reasons",
+                "url": "https://ukr.media/animals/446231/",
+                "description": "Cat lovers are usually well aware of the nature of their furries. Some must be stroked before eating, others wait until you put down the book to lie down in bed with you. But sometimes cats behave in such a way that even experienced cat owners cannot give an explanation. For example, why does the cat turn its back to the owner? At first glance, it seems like an act of disrespect. After all, this behavior of cats is not at all similar to human norms of decency. However, do not judge your pet harshly until you understand the reasons. We tell why the cat turns its back to the owner. There are several reasons for this, informs Ukr. Media. Polite interaction",
+                "date": "2022-08-13"
+            },
+            {
+                "title": "An endangered baby okapi has been born at Dublin Zoo",
+                "url": "https://ukr.media/animals/446243/",
+                "description": "An endangered okapi cub was born in the zoo in Dublin, Ukr.Media informs. The zoo staff added that the cub was born to parents who turned 14 this year. According to veterinarians, the baby is in excellent shape, shows a good appetite, can already stand on his feet and is gaining weight and growth every day. The okapi mother demonstrates excellent maternal instincts, the zoo said, but the father also participates in raising the cub. At the moment, this is the second okapi born on the territory of Ireland. Okapi is a large ungulate, related to the giraffe. They have red-brown velvety fur with characteristic black and white stripes on the hind legs.",
+                "date": "2022-08-14"
+            },
+            {
+                "title": "Signs about the weather by the behavior of domestic animals: how to predict",
+                "url": "https://ukr.media/animals/446160/",
+                "description": "Surprisingly, not only the hydrometeorological center can predict the weather. It is realistic to determine it by looking at the habits of our smaller brothers - animals and birds. The main thing is to pay attention to their behavior, informs Ukr.Media. Cats Looking at how a cat or cat behaves, you can predict certain moments. Some such signs are known to everyone, while others are not given due attention. Namely: He sneezes. It will start raining soon. It washes. Until the weather. Scratching behind the ear. Heavy precipitation in the form of snow or rain is expected. Tidy up the tail in winter. A blizzard is coming. Sleeps in a ball. A frosty day is expected. He sleeps, covering his face with his paws. A sharp cooling will come. He sleeps with his paws spread. The weather will be hot. She pulled out her hind paw. A strong wind will rise. It is washed, smoothing the hair on the head. The day should be clear and warm. He sharpens his claws on the furniture. The weather will change. Dogs...",
+                "date": "2022-08-11"
+            },
+            {
+                "title": "In Great Britain, the cat Garfield ran away from his new owners and spent a month and a half getting back to his former owners",
+                "url": "https://ukr.media/animals/419593/",
+                "description": "In Britain, red-haired tabby Garfield walked 64 kilometers in seven weeks to find his former owners, Ukr.Media informs. Neil Payne, 53, and his wife Lisa, 43, found Garfield a new home after their children moved out. The new owners took him on June 8, and on the 20th, the three-year-old cat disappeared from their home in North London. And on July 30, a stunned Neil found a red-haired traveler on the doorstep of his house. It is incredibly. He looked at me and cried. I didn't think it was Garfield at first. But Lisa went to the door and called his name, and the cat jumped into her arms, says Payne. Neil is surprised, because the cat has never traveled before. It was decided that Garfield would remain with the Paines - now they simply could not give him to anyone, because Ryzyk had proven his loyalty.",
+                "date": "2020-08-11"
+            },
+            {
+                "title": "The adorable blind dog has his own 'guide cat' to keep him from bumping into things",
+                "url": "https://ukr.media/animals/446084/",
+                "description": "In 2019, residents of Burlington (Vermont, USA) took a dog named Blaze into their home, but not everything went smoothly, Ukr.Media informs. It turned out that the pet is blind in one eye, and in the other eye there are major problems with the lens. Despite all attempts to help Blaze, in 2020 he is completely blind. The misfortune caused a huge regression in the dog's desire to socialize and communicate, but, strangely enough, Blaze's self-confidence was restored by a creature from whom one would least expect it - the house cat Satin. Satin became very attached to the big dog, but the friend, who can't see anything, repeatedly stepped on his friend. Then Satin began meowing loudly to prevent such incidents, and soon the owners noticed that the cat, walking with the dog around the rooms, was vocalizing every time to prevent Blaze from bumping into furniture and various objects. So Blaze got an unusual handler. The owners are surprised by such friendship, because of all the cats that live with them, Satin is not the most affectionate at all. Blaze's blindness must have played a big role, because unfortunately the dog and the cat just tried to ignore each other and not cross each other.",
+                "date": "2022-08-08"
+            },
+            {
+                "title": "15 dog breeds that are best for families with children",
+                "url": "https://ukr.media/animals/377119/",
+                "description": "Are you looking for a fluffy baby who would make friends with your child and become a full member of the family? Children and dogs have an almost magical bond with each other, but only if you find the right breed. It is better to choose a dog from one of the following breeds, since each animal is a unique individual with its own habits. Regardless of the choice of breed, children also differ in their needs, energy levels and personalities. Therefore, it is very important to make the right approach during the selection and adaptation period of the animal at home. \"When you're looking for a family pet, you usually consult with friends and family, relying on their own experience,\" says Janelle Emmett, a veterinary technologist at Carrington College in Sacramento, who has been selecting companion animals for more than 12 years. Ideally, people should choose a breed based on the dog's lifestyle. It is also worth correctly assessing the child's personality and age, comparing it with the character traits of the breed. It is necessary to observe how children behave with animals.",
+                "date": "2018-10-23"
+            },
+            {
+                "title": "There are no unnecessary things: an old TV has become an ideal house for a cat",
+                "url": "https://ukr.media/animals/446129/",
+                "description": "Some people have an amazing ability to transform old things that most people would send to the landfill into real works of art. The father of the girl, known in social networks under the nickname biggestweiner, is one of such unique personalities with golden hands, Ukr.Media informs. Recently, at a garage sale, a man bought a vintage TV, which he used to make a house for his daughter's cat, named Mifa. The house has a soft couch, a small picture for comfort and even lighting, the brightness of which can be adjusted using a knob on the front panel of the TV. A fastidious cat is a kind of expert in houses and couches, and it is very difficult to please her. However, Mr. \"wonderful hands\" succeeded. Mifa was delighted with the new original home and slept in it the very first night. Now the house in the TV is her favorite place to relax. When the biggestweiner shared pictures of her father's masterpiece on social networks, tens of thousands of users praised his work.",
+                "date": "2022-08-08"
+            },
+            {
+                "title": "A rescue rabbit adopted a kitten and became her best friend",
+                "url": "https://ukr.media/animals/446083/",
+                "description": "As soon as a cat named Ahsoka, still very small, appeared in the house of Ryanna Palermo, a special bond was established between her and the rabbit Echo. A caring rabbit decided to take the cat under his wing, becoming her best friend. Despite the fact that other animals lived in the house, Ahsoka and Echo spent most of their time with each other. \"We thought Ahsoka would interact a lot with her siblings, but she preferred to spend time with the rabbit and became very attached to him,\" recalls Ryanna Palermo. Echo began to take care of his furry friend, and soon she was the only animal in the house that he allowed in his cage. 'Echo has always been the real boss in the house. All our other pets were afraid of him, but not Ahsoka. She loved him very much,' said Ryanna. Ahsoka and Echo loved cuddling and watching TV together, but unfortunately, the rabbit passed away from old age in early July. However, the cat still sleeps in the bed she shared with her best friend, keeping the memories of their unique bond alive. 'Ahsoka and Echo have brought so much joy to our lives. When we saw them together, we instantly became happier,' said the owner of the cat and rabbit. Ryanna doesn't plan on getting another rabbit anytime soon, but if she does decide to, she's sure Ahsoka will take care of the new family member just like Echo once took care of her.",
+                "date": "2022-08-07"
+            },
+            {
+                "title": "Fish in dog food: which can be and in what form",
+                "url": "https://ukr.media/animals/446069/",
+                "description": "The dog must receive a complete and balanced diet with products containing valuable substances, informs Ukr.Media. This fully applies to fish, a product that raises many questions for breeders. Can it be given to dogs, which one and in what quantity, experts said. Benefits of fish in dog nutrition. According to veterinarians, fish should be given to dogs 2 times in 7-10 days. It is a low-calorie product that is easily absorbed by the body of dogs. Fish can rightly be called the most powerful source of calcium and magnesium, necessary for strengthening teeth and bones, replenishing energy after walks and training. Glucosamine restores joints and maintains their health until old age. Iodine has a positive effect on the growth of new cells, reproductive functions, and metabolism. And fluorine and phosphorus help the pet to have a beautiful coat and healthy skin. Negative effects of fish However, fish can harm the pet's health under the following circumstances: the substance trimethylamine oxide without heat treatment and in excess removes iron from the dog's body, causing anemia; the substance thiaminase in large quantities is able to destroy vitamin B, causing vitamin deficiency; histamine, another substance whose high level can cause pet poisoning. Allowed and forbidden fish...",
+                "date": "2022-08-07"
+            },
+            {
+                "title": "Attract luck and wealth: cats of which breeds become talismans for their owners",
+                "url": "https://ukr.media/animals/446058/",
+                "description": "The ancient cat breed of Khao-Mani is a talisman of good luck and is especially valued in Thailand. Local residents consider the animal to be the property of the nation, previously only members of the imperial family could afford them. Siamese cats are favored by the gods thanks to their cream color, which attracts blessings and luck to the house. A Thai cat is usually devoted to one owner, who becomes the main person in the family. She brings success and well-being to her. Korat cats are perfect for newlyweds, as they attract love and happiness. This type of pets will help the family become strong and harmonious. The Japanese bobtail, which is especially respected by the Japanese, brings happiness and well-being. You can't write off an ordinary yard cat either - they usually become the best talismans, because when you take in a small stray - the universe wants to thank you for your kindness.",
+                "date": "2022-08-06"
+            },
+            {
+                "title": "Tourists on jet skis scared a herd of seals off the coast of Cornwall: local animal rights activists sound the alarm",
+                "url": "https://tsn.ua/svit/turisti-na-gidrociklah-napugali-stado-tyuleney-bilya-uzberezhzhya-kornuolla-miscevi-zoozahisniki-b-yut-na-spoloh-2132338.html",
+                "description": "A pod of seals resting on rocks off the coast of Cornwall were forced to jump into the sea in panic after being spooked by three jet ski tourists. As it became known, the incident happened near the coast of Cornwall in Great Britain. There, the family reached the rocks on jet skis where a herd of seals was resting. The animals were so scared of the tourists that they immediately started jumping into the sea. 'If spooked, seals on land risk serious injury from the graze as they race up the rocks back to the safety of the sea. They are also at risk of falling from a height, which can lead to broken bones or sometimes fatal injuries,' writes the Daily Mail. It is because of this that local animal defenders warned vacationers about the risk of injury to animals - in particular, seals, dolphins and other representatives of marine life. It is the second time in as many weeks that the charity has issued a warning and advice to beach users and visitors to leave the seals alone.",
+                "date": "2022-08-11"
+            },
+            {
+                "title": "Conditions have changed: how to take an animal abroad from Ukraine",
+                "url": "https://tsn.ua/exclusive/umovi-zminilis-yak-z-ukrayini-vivesti-tvarinu-za-kordon-2118079.html",
+                "description": "Animal departure requirements have been eased in many countries since the start of a full-scale invasion. The four-legged dog was released without any documents. And they could vaccinate and chip just at the border. But now the simplified regime has already been canceled. And in order for the animal to be taken out of Ukraine, preparations for this should be started a month or even four. How Ukrainians fled abroad with animals at the beginning of the war. In March, Ms. Olga took three Labradors with her to Poland. They took a minimum of things on the road with their daughter. But they didn't even think of leaving the dogs at home. \"Getting on the train was the most difficult moment of the entire trip,\" Olga recalls. It was the beginning of March. Crowds of people. Mass evacuation to the west of Ukraine. There were no seats in the train. And at that moment, half of those standing were already occupied. \"On the train, right from the threshold, one woman said to us: would you have taken the crocodile with you, to which I replied: if I had a crocodile, I would not leave it,\" the woman recalls. The road to Lviv took almost 11 hours without stops. And then they crossed the border on foot for another 4 hours. Even there, they were not asked about any documents. \"People saw that these were our own dogs and we were running away from the war. but we had all the documents available, it's just that no one looked at them either from the Ukrainian or the Polish side,\" says Olga. ",
+                "date": "2022-07-24"
+            },
+            {
+                "title": "A platform with free online consultations was launched for Ukrainian pet owners",
+                "url": "https://tsn.ua/ukrayina/dlya-ukrayinskih-vlasnikiv-tvarin-zapustili-platformu-z-bezkoshtovnimi-onlayn-konsultaciyami-2058415.html",
+                "description": "In Ukraine, the Animal Help Ukraine platform was launched, where animal owners can get free online consultations with veterinarians from the USA, Canada, Great Britain and other countries of the world. Consultations with the veterinarian will take place in the chat, equipped with an automatic translator to overcome the language barrier. Ukrainians will be able to consult with professional veterinarians about:\nnutrition - how to find alternatives to conventional feed in wartime and switch to natural products;\nanimal peace - how to reduce anxiety and stress of a pet during explosions;\nfirst aid - how to save an animal in extreme conditions;\nexotic animals - how to help those who need special care;\nmedicines - what to do in the absence of the necessary medicine and what \"human\" counterparts can be used to treat animals. The service also has its own library of materials and resources. There you can find care recommendations and advice on keeping pets healthy.",
+                "date": "2022-05-10"
+            },
+            {
+                "title": "A ban on crayfish fishing will be introduced in Poltava Oblast: when will it come into effect and why",
+                "url": "https://suspilne.media/270658-na-poltavsini-zaprovadat-zaboronu-na-vilov-rakiv-koli-diatime-ta-comu/",
+                "description": "In the Poltava region, a ban on catching crayfish in the region's reservoirs has been in force since August 15. Violators will be fined. Yuliya Bondar, head of the ichthyology department of the Poltava fish protection patrol, told Suspilny about this. The ban on catching crayfish in Poltava Oblast reservoirs will be in effect from August 15 to September 30. This is due to the period of the second moult. The ban was established in order to ensure the protection of this type of aquatic biological resources during natural reproduction, to create favorable conditions for spawning, and to increase their reserves. Scientific studies of the Institute of Fisheries of the National Academy of Agrarian Sciences of Ukraine claim that the second molt usually begins from the second half of July to the second or third decade of September. For an illegally caught crayfish, a person will have to pay damages in the amount of 3,332 hryvnias, in addition, the violator will be fined. \"Crayfish fishing during the ban is a gross violation of environmental legislation, responsibility for which is provided for in the fourth and third part of Article 85 of the Code of Ukraine on Administrative Offenses. The sanction of the article provides for a fine from 51 to 170 hryvnias, and according to part four - a fine from 340 to 680 hryvnias with the confiscation of tools that are the property of the violator and the catch. Also, illegal fishing of crayfish is subject to criminal liability under the article \"Illegal fishing, game or other water extractive fishing\". The sanction is imprisonment for a maximum of three years. According to Yulia Bondar, after September 30, one person will be able to catch up to 30 crayfish per day.",
+                "date": "2022-08-14"
+            },
+            {
+                "title": "NFT collection created in Ukraine to support 700 animals from Gostomel shelter",
+                "url": "https://hromadske.ua/posts/v-ukrayini-stvorili-nft-kolekciyu-dlya-pidtrimki-700-tvarin-iz-gostomelskogo-pritulku",
+                "description": "A Ukrainian creative agency has created an NFT collection to support the Gostomel animal shelter. Proceeds from the sale of NFT illustrations will go towards supporting the animals in the shelter. This was announced in a press release by the Bickerstaff.835 agency. Initially, the authors decided to create an instruction on «how to easily distinguish dogs from pigdogs.» However, the illustrations were later turned into NFT tokens. The animal support project at Gostomel was named BARK - Best Artists Raise Kindness. Over 20 Ukrainian illustrators participated in the initiative. Their works can be purchased on the project's website. The instructions for creating a crypto wallet are also available there. Proceeds from the sale of NFT tokens will be directed towards the Gostomel animal shelter, which currently houses 500 dogs and 200 cats that have survived shelling and occupation. The animals require medical assistance, food, and water. In addition, offline applications have been developed for NFT illustration owners - for example, one can receive a military badge for leadership among free dogs or a VIP pass to the shelter with «lifetime access to pet and play with animals at any time». Those who do not want to buy a token can simply donate any amount to the shelter's account.",
+                "date": null
+            }
+        ],
+        "more": "Read more"
+    },
+    "NoticesPage": {
+        "title": "Find your favorite pet",
+        "categories": {
+            "sell": "Sell",
+            "lostFound": "Lost/found",
+            "inGoodHands": "In good hands",
+            "all": "All",
+            "favoriteAds": "Favorite ads",
+            "myAds": "My ads",
+            "error": "Oops, something went wrong"
+        },
+        "search": "Search",
+        "searchError": "You need to enter something",
+        "card": {
+            "breed": "Breed",
+            "place": "Place",
+            "age": "Age",
+            "price": "Price",
+            "owner": "Owner",
+            "learnMore": "Learn more",
+            "delete": "Delete",
+            "name": "Name",
+            "birthday": "Birthday",
+            "location": "Location",
+            "sex": "The sex",
+            "email": "Email",
+            "phone": "Phone",
+            "comments": "Comments",
+            "contact": "Contact",
+            "remove": "Remove",
+            "addTo": "Add to",
+            "male": "male",
+            "female": "female"
+        },
+        "modalAddPet": {
+            "title": {
+                "addPet": "Add pet",
+                "category": "Type of category",
+                "title": "Tittle of ad",
+                "name": "Name pet",
+                "birth": "Data of birth",
+                "breed": "Breed",
+                "sex": "The sex",
+                "location": "Location",
+                "price": "Price",
+                "loadImage": "Load the pet’s image",
+                "comments": "Comments"
+            },
+            "ph": {
+                "title": "Type name",
+                "name": "Type name pet",
+                "birth": "Type date of birth",
+                "breed": "Type breed",
+                "cityRegion": "City, region",
+                "price": "Type price",
+                "comment": "Type comment"
+            },
+            "btn": {
+                "next": "Next",
+                "cancel": "Cancel",
+                "done": "Done",
+                "back": "Back"
+            },
+            "male": "Male",
+            "female": "Female",
+            "notify": {
+                "bigSizeImage": "File is too big, please download max 5 mb!",
+                "petCategoryFalse": "Please, selected type of category!",
+                "petBirthFalse": "Please, selected date of birth!",
+                "petSexFalse": "Please, selected type of sex!",
+                "petLocationFalse": "Please, selected location from the list!",
+                "petImageFalse": "Please add a photo!",
+                "warning": "Warning!",
+                "okay": "Okay"
+            }
+        },
+        "addPetBtn": "Add pet",
+        "needAuthorization": "You need authorization",
+        "emptyFavoriteList": "Add your favorite animals so as not to lose",
+        "EmptyOwnList": "You haven`t added any animals to your list yet",
+        "loadMore": "Load more...",
+        "deleteNotis": "Are you sure you want to delete notis?",
+        "yes": "Yes",
+        "no": "No"
+    },
+    "OurFriendsPage": {
+        "title": "Our friends",
+        "cardsTitle": {
+            "time": "Time",
+            "address": "Address",
+            "email": "Email",
+            "phone": "Phone"
+        },
+        "cards": [
+            {
+                "title": "\"Sirius\"",
+                "url": "https://dogcat.com.ua",
+                "addressUrl": "https://goo.gl/maps/iq8NXEUf31EAQCzc6",
+                "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/pets-support/images/sponsors/frame_287.png",
+                "address": "Fedorivka, Kyiv Oblast, Ukraine, 07372",
+                "workDays": [
+                    {
+                        "isOpen": false
+                    },
+                    {
+                        "isOpen": false
+                    },
+                    {
+                        "isOpen": false
+                    },
+                    {
+                        "isOpen": false
+                    },
+                    {
+                        "isOpen": false
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "11:00",
+                        "to": "16:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "11:00",
+                        "to": "16:00"
+                    }
+                ],
+                "phone": "+380931934069",
+                "email": null
+            },
+            {
+                "title": "Happy Paw",
+                "url": "https://happypaw.ua/ua",
+                "addressUrl": "https://goo.gl/maps/3RyzTYBvMr9WQWCC6",
+                "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/pets-support/images/sponsors/frame_288.png",
+                "address": "Kyiv, Shota Rustaveli Street, 44 (3rd floor, office 7)",
+                "workDays": [
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    }
+                ],
+                "phone": "+380442900329",
+                "email": "hello@happypaw.ua"
+            },
+            {
+                "title": "Kharkiv shelter for animals",
+                "url": "https://www.city.kharkov.ua/uk/news/-51132.html",
+                "addressUrl": "https://goo.gl/maps/gjMzx3ifaRgXSftP9",
+                "imageUrl": null,
+                "address": "Kharkiv, st. Kvitky-Osnovyanenko, 7, 2nd floor",
+                "workDays": null,
+                "phone": "+380577607961",
+                "email": "press@citynet.kharkov.ua"
+            },
+            {
+                "title": "LKP \"LEV\"",
+                "url": "https://lkplev.com/",
+                "addressUrl": "https://goo.gl/maps/4xMfxtahHPfXeAYU8",
+                "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/pets-support/images/sponsors/frame_289.png",
+                "address": "79024, Lviv, st. Promyslova 56",
+                "workDays": null,
+                "phone": "+380685354545",
+                "email": null
+            },
+            {
+                "title": "Shelter for dogs Big Heart",
+                "url": "https://pethelp.com.ua/interv_yu_z_zasnovnitseyu_pritulku_velike_sertse/",
+                "addressUrl": null,
+                "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/pets-support/images/sponsors/frame_286.png",
+                "address": null,
+                "workDays": null,
+                "phone": null,
+                "email": "pethelp.ukr@gmail.com"
+            },
+            {
+                "title": "BARBOS volunteer organization",
+                "url": "https://uk-ua.facebook.com/NGO.Barbos/",
+                "addressUrl": "https://goo.gl/maps/pnzYL8t7jbG7j1SQ9",
+                "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/pets-support/images/sponsors/frame_293.png",
+                "address": "Uzhhorod city",
+                "workDays": null,
+                "phone": "+380664880480",
+                "email": null
+            },
+            {
+                "title": "Veterinary center LicoVet",
+                "url": "https://lico.vet/",
+                "addressUrl": "https://goo.gl/maps/sub8u9TAAvLJRE9j9",
+                "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/pets-support/images/sponsors/frame_292.png",
+                "address": "Drugetiv street, 77, Uzhhorod, Transcarpathian region, 88003",
+                "workDays": [
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "20:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "20:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "20:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "20:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "20:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "20:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "20:00"
+                    }
+                ],
+                "phone": null,
+                "email": null
+            },
+            {
+                "title": "Purina",
+                "url": "https://www.purina.ua/",
+                "addressUrl": null,
+                "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/pets-support/images/sponsors/frame_290.png",
+                "address": null,
+                "workDays": null,
+                "phone": "+380800500950",
+                "email": "info@ua.nestle.com"
+            },
+            {
+                "title": "Whiskas",
+                "url": "https://www.whiskas.ua/",
+                "addressUrl": null,
+                "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/pets-support/images/sponsors/frame_285.png",
+                "address": null,
+                "phone": "+380800500155",
+                "email": null
+            },
+            {
+                "title": "Josera",
+                "url": "https://josera.ua/",
+                "addressUrl": null,
+                "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/pets-support/images/sponsors/frame_291.png",
+                "address": null,
+                "workDays": [
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": true,
+                        "from": "09:00",
+                        "to": "17:00"
+                    },
+                    {
+                        "isOpen": false,
+                        "from": "",
+                        "to": ""
+                    },
+                    {
+                        "isOpen": false,
+                        "from": "",
+                        "to": ""
+                    }
+                ],
+                "phone": "+380800409060",
+                "email": "info@josera.ua"
+            }
+        ],
+        "popup": {
+            "days": ["MN", "TU", "WE", "TH", "FR", "SA", "SU"],
+            "open": "open",
+            "close": "close"
+        }
+    },
+    "UserPage": {
+        "info": {
+            "title": "My information",
+            "card": {
+                "name": "Name",
+                "email": "Email",
+                "birthday": "Birthday",
+                "phone": "Phone",
+                "city": "City"
+            },
+            "btn": {
+                "editPhoto": "Edit photo",
+                "logout": "Logout",
+                "deleteAccount": "Delete account"
+            }
+        },
+        "pets": {
+            "title": "My pets",
+            "card": {
+                "name": "Name",
+                "birthday": "Date of birth",
+                "breed": "Breed",
+                "comments": "Comments"
+            },
+            "btn": {
+                "addPet": "Add pet"
+            },
+            "emptyPetsList": "hasn't added any own animals to yourself list yet"
+        },
+        "guest": {
+            "infoTitle": "User information",
+            "petsTitle": "Users own pets"
+        },
+        "modalAddPet": {
+            "title": {
+                "addPet": "Add pet",
+                "editePet": "Edite pet",
+                "name": "Name pet",
+                "birth": "Data of birth",
+                "breed": "Breed",
+                "loadImage": "Add photo and some comments",
+                "comments": "Comments"
+            },
+            "ph": {
+                "name": "Type name pet",
+                "birth": "Type date of birth",
+                "breed": "Type breed",
+                "comment": "Type comment"
+            },
+            "btn": {
+                "next": "Next",
+                "cancel": "Cancel",
+                "done": "Done",
+                "back": "Back"
+            },
+            "bigSizeImage": "File is too big, please download max 5 mb!",
+            "imageFalse": "Please add a photo!",
+            "dateFalse": "Please choose a date no later than today!"
+        },
+        "logoutModal": {
+            "question": "Do you really want to logout?",
+            "yes": "Yes",
+            "no": "No"
+        },
+        "deleteAccount": {
+            "question": "Are you sure you want to delete your account?",
+            "yes": "Yes",
+            "no": "No"
+        },
+        "error": {
+            "required": "Required!",
+            "numberFormat": "Is not correct format, must 380xxxxxxxxx!",
+            "onlyLetters": "Is not correct format, must only letters!"
+        }
+    },
+    "AuthForm": {
+        "stepOne": {
+            "email": "Email",
+            "password": "Password",
+            "passwordTwo": "Confirm Password",
+            "confirm": "Agree with the",
+            "confirmLink": "terms of use of the site",
+            "btnNext": "Next"
+        },
+        "stepTwo": {
+            "name": "Name",
+            "cityRegion": "City, region",
+            "phone": "Mobile phone",
+            "btnBack": "Go back",
+            "btnRegister": "Register"
+        },
+        "registration": "Registration",
+        "haveAccount": "Already have an account?",
+        "login": "Login",
+        "google": "Or sign in with",
+        "error": {
+            "passwordMin": "The minimum number of characters in the field is 10.",
+            "passwordMax": "The maximum number of characters in the field is 63.",
+            "passwordFalse": "Password is required",
+            "spaces": "Invalid password, must not include spaces",
+            "emailFalse": "E-mail address required",
+            "emailSymbol": "The e-mail address is not correct, there must be at least 2 characters before the \"@\" symbol, the hyphen cannot be at the beginning, and the e-mail cannot contain Latin letters",
+            "name": "Name is required!",
+            "region": "Region is required!",
+            "numberFormat ": "Field must contain only numbers, format +380xxxxxxxxx!",
+            "numberFalse": "Phone number is required!",
+            "numberMin": "Cannot be less than nine characters!",
+            "numberMax": "Cannot be more than nine characters!",
+            "passwordsSameValue": "Your passwords must have the same value!",
+            "regionList": "Please select a region from the list!"
+        }
+    },
+    "LoginForm": {
+        "login": "Login",
+        "email": "Email",
+        "password": "Password",
+        "btnLogin": "Login",
+        "resendVerification": "Resend verification email? Click",
+        "forgotPassword": "Forgot your password? Click",
+        "here": "here",
+        "notAccount": "Don't have an account?",
+        "register": "Register"
+    },
+    "VerifyForm": {
+        "email": "Email",
+        "password": "Password",
+        "verify": "Verify",
+        "back": "Go to back?",
+        "login": "Login"
+    },
+    "ResetPasswordForm": {
+        "title": "Please, enter your email to reset password:",
+        "email": "Email",
+        "resetPassword": "Reset password",
+        "back": "Go to back?",
+        "login": "Login"
+    },
+    "changePasswordForm": {
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "changePassword": "Change password",
+        "recoverPassword": "Recover password"
+    }
+}

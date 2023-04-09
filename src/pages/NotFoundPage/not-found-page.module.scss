@@ -1,0 +1,10 @@
+@import '../../helpers/container.module.scss';
+@import '../../helpers/buttons.module.scss';
+
+.notfound__section{
+    background-image: url(../../images/not-found-page.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}

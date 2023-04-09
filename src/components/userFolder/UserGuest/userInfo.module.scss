@@ -1,0 +1,59 @@
+@import "../../../helpers/variables.module.scss";
+
+.infoText {
+    text-align: left;
+    color: var(--text-color);
+    background-color: var(--card-color);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.33;
+    width: 170px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 19px;
+        line-height: 1.33;
+        width: 240px;
+
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 270px;
+    }
+}
+
+
+.infoLabel {
+    display: flex;
+    text-align: left;
+    color: var(--text-color);
+    background-color: var(--card-color);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.33;
+    width: 100%;
+    justify-content: space-between;
+    cursor: auto;
+
+    &:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.33;
+
+    }
+
+    @media screen and (min-width: 1280px) {
+        min-width: 83px;
+    }
+}
+
+a.infoText:hover, a.infoText:focus {
+    color: $accentColor;
+    cursor: pointer;
+}

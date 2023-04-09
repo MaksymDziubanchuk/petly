@@ -1,0 +1,117 @@
+@import '../../helpers/variables.module.scss';
+
+.userPage_container {
+    margin: 0;
+    padding-top: 61px;
+    overflow: hidden;
+    background-color: var(--background-color);
+    
+
+    @media screen and (min-width: 768px) {
+        display: block;
+        padding-top: 88px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-top: 58px;
+    }
+}
+
+.userPage_section {
+    display: block;
+    width: 100%;
+   
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+    @media screen and (min-width: 1280px) {
+        float: left;
+        margin-right: 12px;
+        margin-left: -10px;
+        width: 411px;
+    }
+}
+
+.petsData_section {
+    position: relative;
+   
+
+    @media screen and (min-width: 768px) {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 1280px) {
+        float: left;
+        width: 821px;
+    }
+}
+
+.userPage_title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.3;
+    color: var(--text-color);
+
+    @media screen and (min-width: 768px) {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 24px;
+    }
+}
+
+.userData_box {
+    display: block;
+    width: 100%;
+    background-color: var(--card-color);
+    box-shadow: 7px 4px 14px var(--shadow);
+    border-radius: 20px;
+    margin-bottom: 47px;
+    margin-top: 18px;
+    padding-bottom: 20px;
+    padding: 20px 24px;
+
+    @media screen and (min-width: 768px) {
+        border-radius: 0 40px 40px 0;
+        width: 732px;
+        padding: 40px 40px 0 32px;
+        margin: 0;
+        margin-left: -32px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 411px;
+        height: 541px;
+        margin: 0;
+        margin-left: -20px;
+        padding: 0;
+
+
+    }
+}
+
+.userData_box_btn {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    @media screen and (min-width: 768px) {
+        position: relative;
+        width: 379px;
+        bottom: 16px;
+        margin: 0;
+
+        }
+    
+        @media screen and (min-width: 1280px) {
+        width: 100%;
+        position: relative;
+        bottom: 45px;
+        }
+}

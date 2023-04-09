@@ -1,0 +1,86 @@
+@import '../../../helpers/variables.module.scss';
+
+.wrapper {
+    @media screen and (max-width: 1280px) {
+        transform: translateX(100%);
+        position: fixed;
+        top: 68px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 300;
+        background-color: var(--background-color);
+    }
+
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.isActive {
+    transform: translateX(0);
+}
+
+.authWrapper {
+    padding-top: 36px;
+    margin: 0 0 60px;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: 1280px) {
+        padding-top: 0;
+        margin: 0;
+    }
+}
+
+.linkWrapper {
+    & > a[aria-current] {
+        color: #f59256;
+        text-decoration: underline;
+    }
+
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        padding-left: 40px;
+    }
+}
+
+.linkMain {
+    display: block;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.4;
+    color: var(--text-color);
+    text-align: center;
+    cursor: pointer;
+
+    &:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    &:hover,
+    &:focus {
+        color: $accentColor;
+        text-decoration: underline;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+        letter-spacing: 0.04em;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 20px;
+        line-height: 1.3;
+        color: var(--text-color);
+
+        &:not(:last-child) {
+            margin-right: 100px;
+            margin-bottom: 0;
+        }
+    }
+}

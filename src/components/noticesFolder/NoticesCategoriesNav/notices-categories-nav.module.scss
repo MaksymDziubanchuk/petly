@@ -1,0 +1,63 @@
+@import 'helpers/variables.module.scss';
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    @media screen and (min-width: 768px) {
+        gap: 16px 12px;
+        width: 75%;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 885px;
+    }
+}
+
+.link {
+    display: block;
+    padding: 8px 23px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: 0.04em;
+    color: var(--text-color);
+
+    background-color: var(--notices-categories);
+    border: 2px solid var(--notice-categories-link-border);
+    border-radius: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    
+    @media screen and (min-width: 768px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        line-height: 1.35;
+    }
+
+    @media screen and (min-width: 1280px) {
+        &:hover, &:focus {
+            background-color: $accentColor;
+            color: $lightColor;
+        }
+    }
+}
+
+.link.active {
+    background-color: $accentColor;
+    color: $lightColor;
+}
+
+.item_order {
+    @media screen and (min-width: 1280px) {
+        order: -1;
+    }
+}

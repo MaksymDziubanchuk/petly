@@ -1,0 +1,56 @@
+@import '../../../../helpers/variables.module.scss';
+
+.popup {
+    width: 120px;
+    height: 160px;
+    border: 1px solid #f59256;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    background-color: $lightColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    @media screen and (min-width: 768px) {
+        top: 40px;
+    }
+    @media screen and (min-width: 1280px) {
+        top: 52px;
+    }
+}
+.popup.activ {
+    transform: scale(1);
+}
+
+.popup_content {
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 16px;
+    width: 100%;
+}
+
+.day_item {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin: 0;
+    padding: 3px 8px;
+    width: 100%;
+}
+
+.targetDay {
+    color: $lightColor;
+    background-color: $accentColor;
+}
+.day_wrap {
+    display: flex;
+}
+
+.day_date {
+    width: 25px;
+}

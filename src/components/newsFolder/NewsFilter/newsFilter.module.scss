@@ -1,0 +1,50 @@
+@import '../../../helpers/variables.module.scss';
+
+.search {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.search_input {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 40px;
+    border: none;
+    border-radius: 20px;
+
+    font-size: 16px;
+    color: var(--text-color);
+
+    padding-left: 18px;
+    margin-top: 30px;
+    box-shadow: 7px 4px 14px var(--shadow);
+    background-color: var(--card-color);
+
+    @media (min-width: 768px) {
+        margin-top: 40px;
+        min-height: 44px;
+        width: 608px;
+        font-size: 20px;
+    }
+
+    &:focus {
+        outline: none !important;
+        border: 1px solid #f5925680;
+    }
+}
+
+.search_input::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: var(--search-input);
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+.icon {
+    fill: var(--text-color);
+    stroke: var(--text-color);
+}

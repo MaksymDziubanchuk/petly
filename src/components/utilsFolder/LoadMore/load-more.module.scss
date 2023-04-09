@@ -1,0 +1,21 @@
+@import '../../../helpers/variables.module.scss';
+
+.buttonLoad {
+    display: block;
+    margin: 40px auto 0;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 22px;
+    color: $accentColor;
+    background-color: $lightColor;
+    border: 1px solid $accentColor;
+    box-sizing: border-box;
+    border-radius: 40px;
+    cursor: pointer;
+
+    &:hover, &:focus {
+        background-color: $accentColor;
+        color: $lightColor;
+        border: 1px solid $lightColor;
+    }
+}

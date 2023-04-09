@@ -1,0 +1,248 @@
+@import 'helpers/variables.module.scss';
+
+.card_item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    background-color: var(--card-color);
+    box-shadow: 7px 4px 14px var(--shadow);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.card_img {
+    height: 288px;
+    object-fit: cover;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.card_info_title {
+    margin-bottom: 20px;
+    width: 234px;
+    max-height: 76px;
+    font-size: 28px;
+    line-height: 1.36;
+    letter-spacing: -0.01em;
+    overflow: hidden;
+    color: var(--text-color);
+}
+
+.card_info_list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+}
+
+.card_info_item {
+    display: flex;
+}
+
+.card_info_item_text {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+    color: var(--text-color);
+}
+
+.text_width {
+    min-width: 80px;
+}
+
+a[data-action='owner'] {
+    font-size: 16px;
+    line-height: 1.38;
+}
+
+.card_info_item_link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    word-break: break-word;
+
+    color: var(--text-color);
+
+    &:hover,
+    &:focus {
+        color: $accentColor;
+    }
+}
+
+.add_to_favorite_btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+    border: none;
+    border-radius: 50%;
+
+    fill: $lightColor;
+    opacity: 0.6;
+    stroke: $accentColor;
+    cursor: pointer;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        border: 1px solid $accentColor;
+        fill: $accentColor;
+        opacity: 1;
+    }
+}
+
+.add_to_favorite_btn_active > svg {
+    fill: $accentColor;
+}
+
+.edit_notice_btn {
+    position: absolute;
+    top: 70px;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+    opacity: 0.6;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        border: 1px solid $accentColor;
+        opacity: 1;
+    }
+}
+
+.box_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    width: 248px;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn_more_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    min-width: 248px;
+    height: 38px;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: 0.04em;
+    color: $accentColor;
+
+    background-color: var(--learn-more-btn);
+    border: 2px solid $accentColor;
+    border-radius: 40px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        color: #ff6101;
+        border: 2px solid #ff6101;
+    }
+}
+
+.delete_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    min-width: 248px;
+    height: 38px;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: 0.04em;
+    color: #f59256;
+
+    background-color: var(--delete-btn);
+    border: 2px solid #f59256;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.card_text {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 158px;
+    height: 28px;
+    color: #111;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+    border-radius: 0px 40px 40px 0px;
+}
+
+// ============== Tablet ======================
+
+@media screen and (min-width: 768px) {
+    .card_item {
+        flex-basis: calc((100% - 32px) / 2);
+        border-radius: 0px 0px 40px 40px;
+    }
+
+    .card_info {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+// ============== Desktop ======================
+
+@media screen and (min-width: 1280px) {
+    .card_item {
+        flex-basis: calc((100% - 96px) / 4);
+    }
+
+    .learn_more_btn {
+        box-shadow: 7px 4px 16px var(--shadow);
+    }
+}

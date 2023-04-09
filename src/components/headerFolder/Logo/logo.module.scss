@@ -1,0 +1,130 @@
+@import '../../../helpers/variables.module.scss';
+
+.logoWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (min-width: 1280px) {
+        margin-right: 20px;
+    }
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:first-child {
+        height: 42px;
+    }
+
+    @media screen and (min-width: 768px) {
+        &:first-child {
+            height: 48px;
+        }
+    }
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+    height: 42px;
+
+    @media screen and (min-width: 768px) {
+        height: 48px;
+    }
+}
+
+.theme_box {
+    display: flex;
+    align-items: center;
+}
+
+.toggle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45px;
+    height: 28px;
+    overflow: visible;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 100px;
+
+    @media screen and (min-width: 768px) {
+        margin-right: 500px;
+        margin-left: 20px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-right: 0;
+    }
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: -2px;
+    right: 0;
+    bottom: 0;
+    background-color: var(--bg-btn-theme);
+    transition: 0.4s;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6px;
+    order: 2;
+    flex-direction: row;
+}
+
+.slider:before {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+.fa_icon {
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+    color: #e9bb2f;
+    transform: translateY(-50%);
+    left: 45%;
+    display: flex;
+    flex-direction: row-reverse;
+
+    width: 22px;
+}
+
+.fa_sun {
+    margin-left: 10px;
+    z-index: 9999;
+    color: #e9bb2f;
+}
+
+.fa_moon {
+    margin-right: 10px;
+    z-index: 9999;
+    color: #e9bb2f;
+}
+
+.fa_sun_hidden {
+    visibility: hidden;
+}
+
+.fa_moon_hidden {
+    visibility: hidden;
+}

@@ -1,0 +1,41 @@
+.emptyPetsList_box {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: inline-block;
+    @media screen and (min-width: 768px) {
+    }
+
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.emptyPetsList_img {
+    margin: 0 auto;
+    width: 180px;
+    padding-bottom: 15px;
+    @media screen and (min-width: 768px) {
+        width: 190px;
+        display: inline-block;
+    }
+}
+
+.emptyPetsList_text {
+    width: 200px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.35;
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+        width: 270px;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 480px;
+    }
+}

@@ -1,0 +1,382 @@
+@import "../../../helpers/variables.module.scss";
+
+.userItem_container {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: var(--card-color);
+
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        position: relative;
+    }
+
+    @media screen and (min-width: 1280px) {
+        display: block;
+        padding: 20px 16px 16px 18px;
+        border-radius: 0 40px 40px 0;
+
+    }
+}
+
+.userItem_box_yourPhoto {
+    display: block;
+    position: relative;
+
+    @media screen and (min-width: 768px) {
+     
+
+    }
+
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        align-items: flex-end;
+
+
+    }
+}
+
+.userItem_box_btnPhoto {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 8px;
+    text-align: right;
+    margin-bottom: 36px;
+
+    @media screen and (min-width: 768px) {
+        margin: 8px 0 0 0;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-left: -32px;
+    }
+}
+
+
+.userItem_button {
+    position: relative;
+    display: flex;
+    width: 80px;
+    height: 22px;
+    margin-left: auto;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.8;
+    padding: 0;
+    background-color: $lightColor;
+    border: none;
+    justify-content: space-between;
+
+}
+
+.userDataForm_box {
+    display: block;
+    margin-bottom: 44px;
+
+    @media screen and (min-width: 1280px) {
+        margin: 36px 0 0 0;
+    }
+}
+
+
+.field_box {
+    display: inline-flex;
+    align-items: center;
+}
+
+.field_box_email {
+    justify-content: flex-start;
+}
+
+.userDataForm_field {
+    display: block;
+    box-sizing: border-box;
+    background: var(--card-color);
+    border: 1px solid var(--card-color);
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--text-color);
+
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.33;
+    }
+}
+
+.userDataForm_number {
+    padding-left: 6px;
+    margin-right: -6px;
+
+    @media screen and (min-width: 768px) {
+        padding-left: 12px;
+        margin-right: -12px;
+    }
+}
+
+.inputNumber {
+position: relative;
+}
+
+.inputNumber::before {
+    position: absolute;
+    display: block;
+    content: '+';
+    top: -8px;
+    right: -8px;
+    font-size: 12px;
+    color: var(--text-color);
+
+    @media screen and (min-width: 768px) {
+        top: -13px;
+        right: -12px;
+        font-size: 18px;
+    }
+}
+
+.userDataForm_field:last-child {
+    margin: 0;
+}
+
+.userDataForm_field_active {
+    display: block;
+    box-sizing: border-box;
+    background: var(--card-color);
+    border: 1px solid;
+    border-color: $accentColor;
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color:var(--text-color);
+    cursor: pointer;
+
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.33;
+    }
+}
+
+.userDataForm_field:last-child {
+    margin-bottom: 0;
+}
+
+.userDataForm_field_input {
+    width: 56px;
+}
+
+.iconEdit_btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--card-color);
+    padding: 0;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid $accentColor;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 32px;
+        height: 32px;
+    }
+
+    @media screen and (min-width: 1280px) {}
+}
+
+.iconEdit_btn::before {
+    position: absolute;
+    content: '';
+
+}
+
+.userDataForm_label {
+    display: block;
+    text-align: start;
+    color: var(--text-color);
+    background-color: var(--card-color);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    width: 60px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.33;
+        min-width: 90px;
+
+    }
+}
+
+.userItem_button_icon {
+    margin-right: 7px;
+    color: $accentColor;
+
+    &:hover {
+        color: $accentColor;
+    }
+}
+
+.userItem_edit_photo {
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    cursor: pointer;
+    position: relative;
+    width: 120px;
+    color: var(--text-color);
+
+    &:hover,
+    &:focus {
+        color: $accentColor;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-left: -30px;
+    }
+}
+
+.userItem_edit_photo::before {
+    position: absolute;
+    content: "";
+    cursor: pointer;
+
+    &:hover {
+        color: $accentColor;
+    }
+
+}
+
+.userItem_input_edit_photo {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.userItem__yourPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 233px;
+    height: 233px;
+    object-fit: cover;
+    filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.11));
+
+    @media screen and (min-width: 1280px) {
+        margin-left: 89px;
+    }
+
+}
+
+.iconEdit_active .iconEdit .iconEdit_done {
+    width: 20px;
+    height: 20px;
+    box-sizing: content-box;
+
+    @media screen and (min-width: 768px) {
+
+        padding: 30px;
+    }
+}
+
+form:not(:last-child) {
+    margin-bottom: 12px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 8px;
+
+    }
+
+}
+
+.loader__content {
+    display: flex;
+    position: relative;
+
+}
+
+.loader_oval {
+    position: absolute;
+    content: '';
+    left: 88px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @media screen and (min-width: 768px) {
+    left: 158.5px;
+    top: 16%;
+    transform: translateY(-16%);
+        }
+
+    @media screen and (min-width: 1280px) {
+
+    top: 68px;
+ 
+    }
+}
+
+.loader_oval_avatar {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-165px);
+    z-index: 10;
+
+@media screen and (min-width: 768px) {
+        right: 180px;
+        transform: translateY(80px);
+    }
+
+@media screen and (min-width: 1280px) {
+        top:200px;
+        transform: translateX(-115px);
+    
+    }
+}
+
+.loaderAvatar {
+    position: relative;
+    top: 45px;
+    right: 0;
+
+    @media screen and (min-width: 768px) {
+        top: -120px;
+        right: -15px;
+    }
+    
+    @media screen and (min-width: 1280px) {
+        top: -35px;
+        right: -55px;    
+    }
+}
