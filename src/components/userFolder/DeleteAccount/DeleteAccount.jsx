@@ -8,6 +8,7 @@ import { Confirm } from 'notiflix/build/notiflix-confirm-aio'
 import { useTranslation } from 'react-i18next'
 
 const { REACT_APP_BASE_URL, REACT_APP_FRONTEND_BASE_URL } = process.env
+
 axios.defaults.baseURL = `${REACT_APP_BASE_URL}/api`
 
 export default function DeleteAccount() {
