@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[277],{8277:function(e,t,c){c(2791);t.Z=c.p+"static/media/cat_for_empty_user_pets_list.ff1f3adb5668dc6c5b865dc3636b05d1.svg"}}]);
+//# sourceMappingURL=277.34ba3b32.chunk.js.map
