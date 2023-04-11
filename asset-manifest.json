@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c4f4f07.css",
-    "main.js": "/static/js/main.69a89c44.js",
+    "main.css": "/static/css/main.6ab3a94c.css",
+    "main.js": "/static/js/main.638e35ba.js",
     "static/css/766.3397a01e.chunk.css": "/static/css/766.3397a01e.chunk.css",
     "static/js/766.f6081f8a.chunk.js": "/static/js/766.f6081f8a.chunk.js",
     "static/css/484.2b94b8dc.chunk.css": "/static/css/484.2b94b8dc.chunk.css",
@@ -61,8 +61,8 @@
     "static/media/wave-tablet-home.svg": "/static/media/wave-tablet-home.4e26cbf50ac121bc16ab.svg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.6c4f4f07.css.map": "/static/css/main.6c4f4f07.css.map",
-    "main.69a89c44.js.map": "/static/js/main.69a89c44.js.map",
+    "main.6ab3a94c.css.map": "/static/css/main.6ab3a94c.css.map",
+    "main.638e35ba.js.map": "/static/js/main.638e35ba.js.map",
     "766.3397a01e.chunk.css.map": "/static/css/766.3397a01e.chunk.css.map",
     "766.f6081f8a.chunk.js.map": "/static/js/766.f6081f8a.chunk.js.map",
     "484.2b94b8dc.chunk.css.map": "/static/css/484.2b94b8dc.chunk.css.map",
@@ -105,7 +105,7 @@
     "277.34ba3b32.chunk.js.map": "/static/js/277.34ba3b32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c4f4f07.css",
-    "static/js/main.69a89c44.js"
+    "static/css/main.6ab3a94c.css",
+    "static/js/main.638e35ba.js"
   ]
 }
