@@ -244,9 +244,11 @@ export const authSlice = createSlice({
         [operations.deleteAccount.pending](state) {
             state.loading = true
         },
-        [operations.deleteAccount.fulfilled](state, { payload }) {
+        [operations.deleteAccount.fulfilled](state) {
             state.loading = false
-            state.user = payload
+            state.user = {}
+            state.token = ''
+            state.isLogin = false
             Notify.success('Your account deleted:(', {
                 distance: '100px',
                 opacity: '0.8',
