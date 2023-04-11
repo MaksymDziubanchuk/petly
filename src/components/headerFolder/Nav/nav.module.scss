@@ -1,7 +1,6 @@
 @import '../../../helpers/variables.module.scss';
 
 .wrapper {
-    @media screen and (max-width: 1280px) {
         transform: translateX(100%);
         position: fixed;
         top: 68px;
@@ -10,14 +9,16 @@
         height: 100vh;
         z-index: 300;
         background-color: var(--background-color);
-    }
 
     @media screen and (min-width: 1280px) {
+        transform: translateX(0);
+        position: static;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        height: auto;
     }
 }
 
