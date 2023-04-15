@@ -8,7 +8,7 @@
     padding-top: 40px;
     text-align: center;
 
-    background: $background;
+    background: var(--background-color);
     background-image: url(../../images/wave-mobile-auth.png);
     background-position: bottom;
     background-size: contain;
@@ -17,6 +17,7 @@
 }
 
 .login__form__section {
+    background: var(--card-color);
     margin-left: auto;
     margin-right: auto;
 }
@@ -29,6 +30,7 @@
     letter-spacing: 0.04em;
     margin: 0px 0px 40px;
     padding: 0;
+    color: var(--text-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -40,7 +42,7 @@
     }
 
     .login__form__section {
-        background: $lightColor;
+        
         box-shadow: 7px 4px 14px rgba(0, 0, 0, 0.11);
         border-radius: 40px;
         padding: 60px 80px 40px;
